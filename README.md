@@ -24,11 +24,11 @@ It's ok, don't panic, follow the [git guide](https://github.com/Purple-Beard/FED
 
 ## Info
 
-Student Name: Jane Smith
+Student Name: Esmeralda Carlos
 
-Cohort: FEDXXX
+Cohort: FED306
 
-[Github URL](https://github.com/username)
+[Github URL](https://github.com/Esmiecodes27)
 
 [Email](mailto:here@there.com)
 
