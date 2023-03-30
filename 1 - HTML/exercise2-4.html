@@ -1,0 +1,127 @@
+<!--Exercise 2 - Create a list of your favorite movies using an unordered list.
+Add a `hyperlink` to each movie that redirects to the movie's IMDB page.
+
+Exercise 3 - Create a form that allows users to submit their `name`, `email` `address` and `message`.
+Ensure that the form has proper validation and displays an error message
+if any field is left empty using the `required` attribute.
+
+Exercise 4 - Create a table that displays the following data:
+
+| Name  | Age | Occupation |
+|-------|-----|------------|
+| John  | 25  | Developer  |
+| Sarah | 30  | Designer   |
+| Jack  | 35  | Manager    |
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2: list of movies</title>
+</head>
+<body>
+<main>
+    <section>
+    <header>
+       <h1>A list of my Top 3 <i>classic </i>movies</h1> 
+    </header>
+
+    <img src="img/MovieLogo.webp" alt="Picture of a movie logo">
+    <p>Hello and welcome to my page, where I've listed my top three classic movies.
+        Have read, and who knows, you might just discover a new classic.</p>
+        <header>
+         <h2>Listed below:</h2>    
+        </header>
+    <ul>
+        <li><a href="https://www.imdb.com/title/tt0293564/?ref_=nv_sr_srsg_0">Rush Hour 3</a></li>
+        <li><a href="https://www.imdb.com/title/tt0175142/?ref_=nv_sr_srsg_0">Scary Movie</a></li>
+        <li><a href="https://www.imdb.com/title/tt0381707/?ref_=nv_sr_srsg_0">White Chicks</a></li>
+    </ul>
+    </section>
+
+    <section>
+    <p>What are your top 3 classic movies?</p>
+    <p>If you'd like to contact me, please fill out the form below.</p>
+<header>
+    <h4>Contact Form</h4>
+</header>
+    <form class="contact">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="John Doe" required><br>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="here@there.com" required><br>
+        <label for="message">Message:</label>
+    <textarea name="message" id="message"rows = "4" cols = "43" placeholder="write your message here..."></textarea>
+
+<p>If you submit a form, your data must be processed in order to promptly respond to your enquiry.<br> 
+    Your data will only be processed for this purpose and will not be used for any both these purpose.</p>
+    <label for="checkbox"> Please tick to confirm you agree to the above statement.</label>
+
+    <input type="checkbox" name="checkbox" id="checkbox" value ="yes" required>
+    <input type="submit" value="Submit">
+<button type="reset">Reset Form</button>   
+</form>
+</section>
+
+<section>
+<header>
+    <h2> HTML table with data 1</h2>
+</header>
+<table>
+  
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Occupation</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!--John-->
+        <tr>
+            <td>John</td>
+            <td>25</td>
+            <td>Developer</td>
+        </tr>
+        <!--Sarah-->
+        <tr>
+            <td>Sarah</td>
+            <td>30</td>
+            <td>Designer</td>
+        </tr>
+        <!--Jack-->
+        <tr>
+            <td>Jack</td>
+            <td>35</td>
+            <td>Manager</td>
+        </tr>
+        </tbody>
+</table>
+</section>
+
+<section>
+    <header>
+        <h2>HTML table with data 2</h2>
+    </header>
+
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+        </tr>
+        <tr>
+        <th>Harry Potter</th>
+        <th>JK Rowlling</th>
+        </tr>
+    </table>
+</section>
+</main>
+
+    <footer>
+        <p>Copyright @2023 My computer. All rights reserved</p>
+    </footer>
+</body>
+</html>
